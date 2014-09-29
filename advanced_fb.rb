@@ -8,3 +8,8 @@ def adfizz(num, customer_hash)
   end
   output_string
 end
+
+puts adfizz(9, { 10 => "clank" })
+puts adfizz(26, { 13 => "shroop" })
+puts adfizz(18, { 9 => "drip"})
+puts adfizz(33, { 11 => "bang"})
